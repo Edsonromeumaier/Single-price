@@ -1,4 +1,10 @@
 
-I pretender do this projetc in bootstrap bases and try implemennt a jquery bibliry.
+I used some bootstrap for my convenience.
+Used too display grid in desktop design. Display flex in mobile design.
 
-seguir o laoyut de grid oferecido pelo bpootstrap e também fazer o sistema de loggin implementando modelos do jquey.
+Contém gambiarras.
+E aqui fica um desafio do desafio: Como, no display desktop, ficou aquele espaçamento estranho?? 
+Se souber a resposta, entre em contato e concorra a prêmios.
+
+
+

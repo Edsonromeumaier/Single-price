@@ -146,9 +146,7 @@ html:focus-within {
             width: 100%;            
             max-width: min(670px, 90%);
           }     
-            
-
-        }
+                    
         .item-1 {
             
             grid-area: 1 / 1 / 2 / 3;
@@ -239,5 +237,4 @@ html:focus-within {
             cursor: pointer;
         }
 
-}
-
+    }

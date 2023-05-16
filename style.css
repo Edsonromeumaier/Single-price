@@ -20,20 +20,11 @@ html:focus-within {
 @media only screen and (max-width:634px) {
 
  
-    #body{
-        background-color: var(--GrayishBlue);
-        border: 0;
-        margin: 0;
-        padding: 0;
-    }
-
- 
     main{
-            min-height: 100vh;            
-            display: flex;
+            min-height: 100vh;           
+            display: flex;                                   
             flex-direction: column;
             justify-content: center;
-            align-items: center;
             background-color: var(--LightGray);
             padding-top: 1.5em;
             padding-bottom: 1.5em;
@@ -43,13 +34,14 @@ html:focus-within {
 
 
    .wrapperm{
-           
-        width: 90%;                
+
+        width: 90%;     
+        margin: 0 auto;           
         border-radius: 10px;
         background-color: var(--LightGray);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         font-family: 'Karla', sans-serif;
-
+        
        
     }
 
@@ -59,7 +51,8 @@ html:focus-within {
         background-color: #ffffff;
         font-family: Karla, sans-serif;  
         border-top-left-radius: 10px;
-        border-top-right-radius: 10px;      
+        border-top-right-radius: 10px;   
+        padding: 1.5rem;   
       }
 
     .item-1 h2{
@@ -82,38 +75,62 @@ html:focus-within {
         width: 100%;
         margin:0;
         background-color: var(--Cyan);
+        padding: 1.5rem;
     }
+
     .item-2 h3{
-        color: var(--GrayishBlue);
+        font-size: 1em;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        color: var(--LightGray);
 
     }
     .item-2 span{
-        color: #ffffff
+        color: #ffffff;
+        font-weight: bold;
     }
+
     .item-2 price{
         color: var(--LightGray);
     }
     .item-2 p{
         color:var(--LightGray);
-    }
-    .item-2 .btn-lg{
+    }        
+    .item-2 .btn-primary{
         background-color:var(--BrightYellow);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border: none;
     }
-
+    .item-2 .btn-primary:active{
+        background-color: var(--lightCyan);
+        color: #ffffff;
+        transition: background-color 0.5s ease;
+    }
     .item-3{
         width: 100%;
         margin:0;
+        font-size: 1.1em;
+        font-weight: bold;
         background-color: var(--BrightYellow);
         list-style-type: none;
         color: var(--LightGray);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        padding: 1.5rem;
     }
-
     .item-3 h3{
         font-size: 1.1em;
         font-weight: bold;
     }
+
+    .item-3 .list{
+        list-style-type: none;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        line-height: 1.6;
+    }
+    
+    
     
 }
 

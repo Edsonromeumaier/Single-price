@@ -9,5 +9,5 @@ Se souber a resposta, entre em contato e concorra a prêmios.
 
 ![Imagem mobile](./images/Screen%20Shot%202023-05-16%20at%2015.03.12.png)
 
-![Imagem descktop](./images/Screen%20Shot%202023-05-16%20at%2015.03.12.png)
+![Imagem descktop](./images/Screen%20Shot%202023-05-16%20at%2015.01.02.png)
 

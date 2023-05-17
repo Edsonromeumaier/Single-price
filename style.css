@@ -47,7 +47,7 @@ html:focus-within {
 
     .item-1 {
         width: 100%;
-        margin:0;
+        margin: 0 auto;
         background-color: #ffffff;
         font-family: Karla, sans-serif;  
         border-top-left-radius: 10px;
@@ -135,11 +135,7 @@ html:focus-within {
 }
 
 @media only screen and (min-width: 635px) {
-        #body{
-            min-height: 100vh;
-            text-rendering: optimizeSpeed;
-            line-height: 1.5;
-        }
+    
 
         main{
             min-height: 100vh;            
@@ -148,6 +144,7 @@ html:focus-within {
             justify-content: center;
             align-items: center;
             background-color: var(--LightGray);
+         
         }
 
         .wrapperm{
@@ -156,12 +153,12 @@ html:focus-within {
             grid-template-columns: 1fr 1fr;
             gap: 0;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);           
-            display: grid;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
             overflow: hidden;
             align-items: end;
             width: 100%;            
             max-width: min(670px, 90%);
+            
           }     
                     
         .item-1 {
@@ -178,10 +175,12 @@ html:focus-within {
         .item-2{
             grid-area: 2 / 1 / 3 / 2;
             padding: 1.5rem;
+            height: 100%;
             width: 100%;            
             background-color: var(--Cyan);
             color:#ffffff;
             padding-bottom: 1.5rem;
+            position: relative;
         }
         .item-3{
             grid-area: 2 / 2 / 3 / 3;
@@ -190,6 +189,9 @@ html:focus-within {
             margin:0;
             background-color: var(--lightCyan);
             color: var(--LightGray);        
+            position: relative;
+            font-size: 1.1em;
+            font-weight: bold;
         }
     
         .item-1 h2{
@@ -239,16 +241,14 @@ html:focus-within {
             color: #ffffff;
             transition: background-color 0.5s ease;
         }
-
-        .item-3 {
-            font-size: 1.1em;
-            font-weight: bold;
-        }
         .item-3 .list{
             list-style-type: none;
             font-size: 14px;
             letter-spacing: 0.08em;
             line-height: 1.6;
+            position: relative;
+            overflow: auto;
+            max-height: 150px;
         }
         .item-3 .list:hover{
             cursor: pointer;
